@@ -1,0 +1,93 @@
+body{
+	background-color: #444;
+	padding: 0px;
+}
+
+header{ 
+	background-color: #222;
+	margin: 0px;
+	color: #EDEDED;
+	padding:10px;
+}
+
+header h1{
+	margin: 0px;
+}
+
+.heroBox{
+	margin-top:25px;
+}
+
+.heroWrapper{
+	height: 700px;
+	background-color: #EDEDED;
+	position:relative; 
+	border-radius: 10px;
+	padding:10px;
+	margin-bottom: 25px;
+}
+
+.imageWrapper{
+	text-align: center;
+}
+.imageWrapper img{
+	max-width:90%;
+	max-height:90%;
+}
+
+.heroWrapper .addToTeam{
+	position: absolute;
+	bottom: 35px; 
+	width:90%;
+	text-align:center;
+}
+
+.searchForm{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.searchForm .btn-primary{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.right{
+	text-align: right;
+}
+
+.teamWrapper{
+	height: 100%;
+	overflow: hidden;
+}
+.currentTeam{
+	color: #EDEDED;
+}
+
+.currentTeamItem{
+	color: #555;
+	background-color: #EDEDED;
+	border: 1px solid #333;
+	margin-bottom:10px;
+	position:relative;
+}
+
+.currentTeamItem .delete{
+	display: none;
+	position: absolute;
+	top: 20px; 
+	left: 20px; 
+	opacity: .8;
+}
+
+.currentTeamItem:hover .delete{
+	display: block;
+}
+.currentTeamItem img{
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.currentTeamItem .teamMemberName{ 
+	font-size: 24px;
+}
